@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>udcomfy</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+</head>
+<body>
+    <!-- Home -->
+    <header class="header" >
+   
+      
+        <a href="#" class="logo"> <span>Com</span>fy</a>
+
+        <!-- <div class="sidebar">
+          <a href="#" class="active">Home</a>
+          <a href="#About">About</a>
+          <a href="#Projects">Projects</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Contact">Contact</a>
+      </div> -->
+        <div class="navbar flex">
+            <a href="#" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+          <div>
+              <i class="ri-menu-fill" id="btn"  ></i>
+          </div>
+
+        
+    </header>
+    <!-- home -->
+   <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Comfort</span> a Frontend Developer</h1>
+            <p>Welcome to my portfolio! I'm Udeme Comfort, a frontend developer with a passion for crafting seamless and visually engaging web experiences. With a strong foundation in HTML, CSS, and JavaScript, I aim to create intuitive, responsive designs that delight users. Explore my work, learn more about my journey, and let's connect to build innovative solutions together!</p>
+
+            <div class="btn-box">
+                <button class="btn-1">Hire me</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="imgs/half image.jpg" alt="">
+        </div>
+   </section>
+
+   <!-- About -->
+   <section class="about"  id="About">
+    <div>
+        <div class="about-img">
+            <img src="imgs/half image.jpg" alt="">
+        
+        </div>
+    </div>
+   
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend <span>Developer</span></h3>
+        <p>Hi! I'm Udeme Comfort, a frontend developer with a passion for creating beautiful and functional web interfaces. I specialize in HTML, CSS, and JavaScript, and I'm currently exploring modern frameworks like React. I love combining creativity and technical skills to build user-friendly websites. When I'm not coding, you’ll find me immersed in fashion design, bringing my creative visions to life. Let’s collaborate and create something exceptional!.</p>
+        <a href="#" class="btn-2">Experince</a>
+    </div>
+   </section>
+   <section id="Projects" class="projects">
+    <h1>Projects</h1>
+    <div class="projects-container">
+      <div class="project-box">
+        <h4>Project 1: Portfolio Website</h4>
+        <p>Built a responsive portfolio website using HTML, CSS, and JavaScript to showcase my work and skills.</p>
+        <a href="https://github.com/yourusername/portfolio" target="_blank"><i class='bx bx-link'></i> View on GitHub</a>
+      </div>
+      <div class="project-box">
+        <h4>Project 2: E-commerce Site</h4>
+        <p>Developed a  e-commerce site using html and css with features like user authentication and product management.</p>
+        <a href="https://github.com/yourusername/ecommerce-site" target="_blank"><i class='bx bx-link'></i> View on GitHub</a>
+      </div>
+    </div>
+
+
+  </section> 
+  <section id="Skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-box">
+        <i class="ri-html5-fill"></i>
+        <h4>HTML</h4>
+      </div>
+      <div class="skill-box">
+       <i class="ri-css3-fill"></i>
+        <h4>CSS</h4>
+      </div>
+      <div class="skill-box">
+        <i class="ri-javascript-fill"></i>
+        <h4>JavaScript</h4>
+      </div>
+      <div class="skill-box">
+       <i class="ri-bootstrap-fill"></i>
+        <h4>Bootstrap</h4>
+      </div>
+     
+      <div class="skill-box">
+       <i class="ri-git-branch-fill"></i>
+        <h4>Git</h4>
+      </div>
+      <div class="skill-box">
+       <i class="ri-pen-nib-fill"></i>
+        <h4>Photoshop</h4>
+      </div>
+    </div>
+  </section>
+  
+
+   <!-- Contact -->
+   <section class="contact-form" id="Contact">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+        <form action=""> 
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="mail" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="input-box">
+                <textarea name="" id="" cols="20" rows="6" placeholder="Your message"></textarea>
+               
+            </div>
+            <input type="submit" value="Send Message" class="btn-1">
+      
+        </form>
+   </section>
+
+   <!-- footer -->
+   <section class="footer">
+        <div class="social">
+            <a href="#"><i class="ri-linkedin-box-line"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-github-line"></i></a>
+            <a href="#"><i class="ri-facebook-circle-line"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+
+        <p class="copyright">copyright &copy; 2024 Comfort | All Right Reserved</p>
+   </section>
+
+
+   <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+   </script>
+       
+   
+</body>
+</html>
